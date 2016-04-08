@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Contact Us | Club Wrestling</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body>
+    <!--#include file="header.html" -->
+    <section id="title" class="emerald">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>Contact Us</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="breadcrumb pull-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section><!--/#title-->    
+
+    <section id="contact-page" class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h4>Contact Form</h4>
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="http://www.umich.edu/cgi-bin/htmail/htmail-test-address@umich.edu" role="form">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name ="from" class="form-control" required="required" placeholder="Email address">
+                            </div>
+                            <input name="ccme" type="checkbox" checked> Send me a copy of this message<p>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <textarea name="message" id="body" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <input type="hidden" name="subject" value="[Club Wrestling] Website Contact Form" />
+                    <input type="hidden" name="template" value="contact.tmpl" />
+                </form>
+            </div><!--/.col-sm-8-->
+            <div class="col-sm-4">
+                <h4>Practice Location</h4>
+                <iframe width="100%" height="215" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.2372891367277!2d-83.74524438494812!3d42.25210494990563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cafc7f9ad455d%3A0x8abc9617b9b4689f!2sBahna+Wrestling+Center!5e0!3m2!1sen!2sus!4v1460067264716" frameborder="0" style="border:0" marginheight="0" marginwidth="0" allowfullscreen></iframe>
+            </div><!--/.col-sm-4-->
+        </div>
+    </section><!--/#contact-page-->
+
+    <!--#include file="footer.html" -->
+</body>
+</html>
