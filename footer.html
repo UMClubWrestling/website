@@ -24,11 +24,12 @@
                         <abbr title="Phone">P:</abbr> (734) 647-0248
                     </address>
                     <h4>Newsletter</h4>
-                    <form role="form">
+                    <form method="post" action="/cgi-bin/htmail/jsharin@umich.edu" role="form">
                         <div class="input-group">
                             <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
+                            <input type="hidden" name="subject" value="[Club Wrestling] Website Newsletter Form" />
                             <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
+                                <button class="btn btn-danger" type="submit">Go!</button>
                             </span>
                         </div>
                     </form>
